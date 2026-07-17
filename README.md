@@ -1,124 +1,155 @@
-# 🛒 StorePilot ERP
-### Smart Inventory & Billing Management System
+# 🚀 StorePilot - Inventory & Billing Management System
 
-StorePilot ERP is a full-stack MERN application designed to simplify inventory, customer, order, invoice, and sales management for small and medium-sized businesses. It provides a secure admin dashboard with real-time business insights and complete inventory control.
+<p align="center">
+
+# 🌐 Live Demo
+
+### 🔗 Frontend
+### https://store-pilot-dun.vercel.app
+
+### ⚙️ Backend API
+### https://storepilot-backend.onrender.com
 
 ---
 
-# 📌 Features
+[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-Visit%20Now-success?style=for-the-badge)](https://store-pilot-dun.vercel.app)
 
-### 🔐 Authentication
-- Secure Admin Login
+[![Backend API](https://img.shields.io/badge/API-Render-blue?style=for-the-badge)](https://storepilot-backend.onrender.com)
+
+[![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)]
+[![NodeJS](https://img.shields.io/badge/Node.js-Express-green?style=for-the-badge&logo=node.js)]
+[![MongoDB](https://img.shields.io/badge/MongoDB-Database-success?style=for-the-badge&logo=mongodb)]
+[![JWT](https://img.shields.io/badge/Auth-JWT-orange?style=for-the-badge)]
+
+</p>
+
+---
+
+# 📦 StorePilot
+
+A modern **Inventory & Billing Management System** built using the **MERN Stack**.
+
+StorePilot enables businesses to efficiently manage:
+
+- Products
+- Customers
+- Orders
+- Invoices
+- Revenue Reports
+
+through a clean, responsive Admin Dashboard.
+
+---
+
+# ✨ Features
+
+## 🔐 Authentication
+
 - JWT Authentication
 - Protected Routes
-- Password Encryption
-- Role-based Admin Access
+- Secure Login
+- Admin Dashboard
 
 ---
 
-### 👥 Customer Management
-- Add Customer
-- View Customer List
-- Update Customer
-- Delete Customer
-- Customer Contact Information
+## 📦 Product Management
 
----
-
-### 📦 Product Management
-- Add Products
-- Update Products
-- Delete Products
+- Add Product
+- Update Product
+- Delete Product
+- Low Stock Detection
 - Stock Management
-- Low Stock Monitoring
-- Product Pricing
 
 ---
 
-### 🧾 Order Management
+## 👥 Customer Management
+
+- Add Customer
+
+- Update Customer
+
+- Delete Customer
+
+- Search Customer
+
+---
+
+## 🛒 Order Management
+
 - Create Orders
-- Multiple Product Support
-- Automatic Total Calculation
-- Order Status
-  - Pending
-  - Paid
-  - Cancelled
-- Inventory Auto Update
+
+- Pending Orders
+
+- Paid Orders
+
+- Cancel Orders
+
+- Automatic Stock Update
 
 ---
 
-### 💳 Invoice Management
+## 💳 Invoice Management
+
 - Generate Invoice
-- Invoice Status
-  - Paid
-  - Unpaid
-- Due Date Tracking
+
+- Mark Paid
+
+- Due Date
+
+- Payment Tracking
 
 ---
 
-### 📊 Reports & Analytics
-- Total Revenue
-- Total Customers
-- Total Products
-- Total Orders
+## 📊 Reports
+
+- Revenue
+
+- Customers
+
+- Products
+
+- Orders
+
 - Paid Invoices
+
 - Unpaid Invoices
+
 - Low Stock Products
 
 ---
 
-### ⚙️ Admin Settings
-- Admin Profile
-- Application Information
-- System Status
-- Technology Stack Overview
+# 💻 Tech Stack
 
----
+### Frontend
 
-# 🛠 Tech Stack
-
-## Frontend
-
-- React.js
+- React
+- React Router
 - Redux Toolkit
-- React Router DOM
-- Axios
 - React Hook Form
+- Axios
 - React Hot Toast
 - React Icons
 - CSS3
 
-## Backend
+### Backend
 
 - Node.js
 - Express.js
 - MongoDB
 - Mongoose
 - JWT
-- bcryptjs
+- bcrypt
 
 ---
 
-# 📂 Project Structure
+# 📁 Folder Structure
 
 ```
 StorePilot
 │
-├── backend
-│   ├── controllers
-│   ├── middleware
-│   ├── models
-│   ├── routes
-│   ├── config
-│   └── server.js
-│
 ├── frontend
-│   ├── pages
-│   ├── components
-│   ├── services
-│   ├── redux
-│   ├── routes
-│   └── App.jsx
+│
+├── backend
 │
 └── README.md
 ```
@@ -126,37 +157,29 @@ StorePilot
 ---
 
 # 🚀 Installation
+
+
 ---
 
-## Install Backend
+## Backend
 
 ```bash
 cd backend
+
 npm install
+
+npm start
 ```
 
 ---
 
-## Install Frontend
+## Frontend
 
 ```bash
 cd frontend
+
 npm install
-```
 
----
-
-# ▶ Run Backend
-
-```bash
-npm run dev
-```
-
----
-
-# ▶ Run Frontend
-
-```bash
 npm run dev
 ```
 
@@ -164,58 +187,34 @@ npm run dev
 
 # 🔑 Environment Variables
 
-Create a `.env` file inside the backend folder.
+Backend
 
-```
+```env
 PORT=5000
 
-MONGO_URI=Your_MongoDB_URI
+MONGO_URI=YourMongoURI
 
-JWT_SECRET=Your_JWT_Secret
+JWT_SECRET=YourSecretKey
 ```
 
----
+Frontend
 
-# 🔒 Security Features
+```env
+VITE_API_URL=https://storepilot-backend.onrender.com/api
+```
 
-- JWT Authentication
-- Protected APIs
-- Password Hashing
-- Input Validation
-- MongoDB Validation
-- Secure REST APIs
 
----
-
-# 🎯 Future Enhancements
-
-- Sales Charts
-- Email Notifications
-- PDF Invoice Download
-- Barcode Scanner
-- Dark Mode
-- Multi Admin Support
-- Customer Portal
-- Sales Forecasting
-- Dashboard Analytics
-- Backup & Restore
-
----
 
 # 👨‍💻 Author
 
 **Aditya Kumar Bharti**
 
-B.Tech Computer Science Engineering(AI&ML)
+GitHub
+
+https://github.com/ak5g12
 
 ---
 
-# 📄 License
+# ⭐ If you like this project
 
-This project is developed for educational purposes as a Final Year MERN Stack Project.
-
----
-
-# ⭐ Support
-
-If you like this project, don't forget to ⭐ star the repository.
+Please give this repository a ⭐ on GitHub.
