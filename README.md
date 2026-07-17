@@ -6,7 +6,7 @@
 ---
 
 [![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-Visit%20Now-success?style=for-the-badge)](https://store-pilot-dun.vercel.app)
-
+Live Link:- https://store-pilot-dun.vercel.app/
 [![Backend API](https://img.shields.io/badge/API-Render-blue?style=for-the-badge)](https://storepilot-backend.onrender.com)
 
 [![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)]
