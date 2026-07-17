@@ -10,12 +10,12 @@
   Live Link:- https://store-pilot-dun.vercel.app/
 </h3> <br><br
             
-[![Backend API](https://img.shields.io/badge/API-Render-blue?style=for-the-badge)](https://storepilot-backend.onrender.com)
+![Backend API](https://img.shields.io/badge/API-Render-blue?style=for-the-badge)](https://storepilot-backend.onrender.com)
 
-[![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)]
-[![NodeJS](https://img.shields.io/badge/Node.js-Express-green?style=for-the-badge&logo=node.js)]
-[![MongoDB](https://img.shields.io/badge/MongoDB-Database-success?style=for-the-badge&logo=mongodb)]
-[![JWT](https://img.shields.io/badge/Auth-JWT-orange?style=for-the-badge)]
+![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)
+![NodeJS](https://img.shields.io/badge/Node.js-Express-green?style=for-the-badge&logo=node.js)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-success?style=for-the-badge&logo=mongodb)
+![JWT](https://img.shields.io/badge/Auth-JWT-orange?style=for-the-badge)
 
 </p>
 
