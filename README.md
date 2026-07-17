@@ -3,13 +3,6 @@
 <p align="center">
 
 # 🌐 Live Demo
-
-### 🔗 Frontend
-### https://store-pilot-dun.vercel.app
-
-### ⚙️ Backend API
-### https://storepilot-backend.onrender.com
-
 ---
 
 [![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-Visit%20Now-success?style=for-the-badge)](https://store-pilot-dun.vercel.app)
